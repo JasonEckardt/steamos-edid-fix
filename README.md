@@ -1,6 +1,6 @@
-# SteamOS EDID Fix
+# SteamOS EDID Workaround -- Acer XB270H
 
-Workaround for the *Acer XB270H* on DisplayPort to display the correct native resolution 1920x1080 @ 144 Hz. 
+This repo was created as a workaround for the Steam Machine on the *Acer XB270H* with DisplayPort to display the correct native resolution 1920x1080 @ 144 Hz. 
 
 The AI's guess is that the monitor's G-SYNC module doesn't return an EDID to non-NVIDIA GPUs, so SteamOS falls back to 640x480.
 
