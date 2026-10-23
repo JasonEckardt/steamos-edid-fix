@@ -1,0 +1,12 @@
+[Unit]
+Description=Static EDID override for Acer XB270H
+After=sys-kernel-debug.mount
+Before=sddm.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/edid/apply.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
